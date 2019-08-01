@@ -119,10 +119,10 @@ if __name__ == '__main__':
             'name': 'nammehra',
             'email': 'namita.mehra920@gmail.com',
         },
-        path='/Users/nammehra/autoinfra/Test'
+        path='/Users/nammehra/autoinfra/Test1'
     )
 
-    with open('/Users/nammehra/autoinfra/Test/test.txt', 'w+') as f:
+    with open('/Users/nammehra/autoinfra/Test1/test.txt', 'w+') as f:
         f.write('Create testing file')
 
     mygit.commit(branch='master', message='Auto commit by my testing headless account')
